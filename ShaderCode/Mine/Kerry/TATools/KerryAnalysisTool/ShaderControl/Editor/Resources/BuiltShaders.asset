@@ -1,0 +1,3812 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75691fe4a49db4a21986bd2b7ebe85e1, type: 3}
+  m_Name: BuiltShaders
+  m_EditorClassIdentifier: 
+  creationDateTicks: 638125354473966600
+  shaders:
+  - name: Standard
+    simpleName: Standard
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _ALPHABLEND_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _METALLICGLOSSMAP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _NORMALMAP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SHADOWMASK
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Universal Render Pipeline/Lit
+    simpleName: Lit
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SHADOWMASK
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _RECEIVE_SHADOWS_OFF
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LIGHT_COOKIES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _SPECULARHIGHLIGHTS_OFF
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ENVIRONMENTREFLECTIONS_OFF
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _NORMALMAP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _EMISSION
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _METALLICSPECGLOSSMAP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _OCCLUSIONMAP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ALPHATEST_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _DETAIL_MULX2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _PARALLAXMAP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+  - name: Custom/Vegetation
+    simpleName: Vegetation
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LOD_FADE_CROSSFADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Vegetation.shader
+  - name: Custom/MossMask
+    simpleName: MossMask
+    isExpanded: 1
+    includeInBuild: 1
+    keywords:
+    - keyword: _USE_MASK_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LOD_FADE_CROSSFADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Stonework.shader
+  - name: Standard (Specular setup)
+    simpleName: Standard (Specular setup)
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _ALPHAPREMULTIPLY_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Custom/Dissolve
+    simpleName: Dissolve
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _USE_GRADIENT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Dissolve.shader
+  - name: Custom/GroundCover
+    simpleName: GroundCover
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/GroundCover.shader
+  - name: Custom/Rock
+    simpleName: Rock
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LOD_FADE_CROSSFADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Rock.shader
+  - name: Custom/StandardCutout
+    simpleName: StandardCutout
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/StandardCutout.shader
+  - name: Custom/Respawn
+    simpleName: Respawn
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _USE_GRADIENT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Respawn.shader
+  - name: Custom/Alien
+    simpleName: Alien
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Alien.shader
+  - name: ProBuilder/Standard Vertex Color
+    simpleName: Standard Vertex Color
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.probuilder/Content/Shader/StandardVertexColor.shader
+  - name: Custom/EnergyCore
+    simpleName: EnergyCore
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/EnergyCore.shader
+  - name: Custom/BubbleBurst
+    simpleName: BubbleBurst
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/BubbleBurst.shader
+  - name: Custom/EyeLash
+    simpleName: EyeLash
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/EyeLash.shader
+  - name: Custom/Terrain
+    simpleName: Terrain
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Terrain.shader
+  - name: Custom/ToonSkin
+    simpleName: ToonSkin
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/ToonSkin.shader
+  - name: Custom/SculptedHair
+    simpleName: SculptedHair
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/SculptedHair.shader
+  - name: Custom/EyeBallsHD
+    simpleName: EyeBallsHD
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/EyeShader/Shaders/EyeBallsHD.shader
+  - name: Custom/Translucency
+    simpleName: Translucency
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _VERTEXANIMATE_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Translucency.shader
+  - name: Hidden/Universal Render Pipeline/UberPost
+    simpleName: UberPost
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _USE_DRAW_PROCEDURAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _DISTORTION
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _CHROMATIC_ABERRATION
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _BLOOM_HQ_DIRT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _TONEMAP_NEUTRAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _FILM_GRAIN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _DITHERING
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LINEAR_TO_SRGB_CONVERSION
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _GAMMA_20
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _HDR_GRADING
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _TONEMAP_ACES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _BLOOM_LQ
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _BLOOM_LQ_DIRT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _BLOOM_HQ
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/UberPost.shader
+  - name: Legacy Shaders/Diffuse
+    simpleName: Diffuse
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Custom/Shield
+    simpleName: Shield
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Shield.shader
+  - name: Custom/Firefly
+    simpleName: Firefly
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Firefly.shader
+  - name: Hidden/PostProcessing/Uber
+    simpleName: Uber
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: BLOOM
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: BLOOM_LOW
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: CHROMATIC_ABERRATION
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: CHROMATIC_ABERRATION_LOW
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: COLOR_GRADING_HDR_2D
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: COLOR_GRADING_HDR_3D
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: COLOR_GRADING_LDR_2D
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DISTORT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FINALPASS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: GRAIN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_DOUBLEWIDE_TARGET
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_INSTANCING_ENABLED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VIGNETTE
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Uber.shader
+  - name: Universal Render Pipeline/Terrain/Lit
+    simpleName: Lit
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SHADOWMASK
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ALPHATEST_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LIGHT_COOKIES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Packages/com.unity.render-pipelines.universal/Shaders/Terrain/TerrainLit.shader
+  - name: Universal Render Pipeline/Simple Lit
+    simpleName: Simple Lit
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SHADOWMASK
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _NORMALMAP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _RECEIVE_SHADOWS_OFF
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LIGHT_COOKIES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Packages/com.unity.render-pipelines.universal/Shaders/SimpleLit.shader
+  - name: TextMeshPro/Distance Field (Surface)
+    simpleName: Distance Field (Surface)
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader
+  - name: Particles/Standard Unlit
+    simpleName: Standard Unlit
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _ALPHABLEND_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ALPHATEST_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _FADING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _NORMALMAP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: EFFECT_BUMP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: PROCEDURAL_INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SOFTPARTICLES_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-DeferredShading
+    simpleName: Internal-DeferredShading
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)
+    simpleName: Lit (Base Pass)
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SHADOWMASK
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DYNAMICLIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ALPHATEST_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LIGHT_COOKIES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Packages/com.unity.render-pipelines.universal/Shaders/Terrain/TerrainLitBase.shader
+  - name: Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)
+    simpleName: Lit (Add Pass)
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SHADOWMASK
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ALPHATEST_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LIGHT_COOKIES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Packages/com.unity.render-pipelines.universal/Shaders/Terrain/TerrainLitAdd.shader
+  - name: Hidden/Internal-PrePassLighting
+    simpleName: Internal-PrePassLighting
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SCREEN
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SOFT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Custom/Acid
+    simpleName: Acid
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Acid.shader
+  - name: Custom/WaterX
+    simpleName: WaterX
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/WaterX.shader
+  - name: Custom/GroundFog
+    simpleName: GroundFog
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRECTIONAL_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT_COOKIE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/GroundFog.shader
+  - name: Hidden/TerrainEngine/Details/UniversalPipeline/Vertexlit
+    simpleName: Vertexlit
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SHADOWMASK
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LIGHT_COOKIES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MIXED_LIGHTING_SUBTRACTIVE
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Packages/com.unity.render-pipelines.universal/Shaders/Terrain/TerrainDetailLit.shader
+  - name: DawnShaderURP/SkinShaderURP
+    simpleName: SkinShaderURP
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: LOD_FADE_CROSSFADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MIXED_LIGHTING_SUBTRACTIVE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Actor/FKnight_Bundle_01/Shaders/DawnShaderURP/SkinShaderURP.shader
+  - name: DawnShaderURP/EyesTearURP
+    simpleName: EyesTearURP
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: LOD_FADE_CROSSFADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MIXED_LIGHTING_SUBTRACTIVE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Actor/FKnight_Bundle_01/Shaders/DawnShaderURP/EyesTearShaderURP.shader
+  - name: TextMeshPro/Mobile/Distance Field (Surface)
+    simpleName: Distance Field (Surface)
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: DIRECTIONAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTPROBE_SH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: VERTEXLIGHT_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader
+  - name: DawnShaderURP/EyesGradianShaderURP
+    simpleName: EyesGradianShaderURP
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: LOD_FADE_CROSSFADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MIXED_LIGHTING_SUBTRACTIVE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Actor/FKnight_Bundle_01/Shaders/DawnShaderURP/EyesGradianShaderURP.shader
+  - name: DawnShaderURP/ClothingShaderURP2Sides_V2
+    simpleName: ClothingShaderURP2Sides_V2
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: LOD_FADE_CROSSFADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MIXED_LIGHTING_SUBTRACTIVE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Actor/FKnight_Bundle_01/Shaders/DawnShaderURP/ClothingShader2SidesURP_V2.shader
+  - name: Legacy Shaders/VertexLit
+    simpleName: VertexLit
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: INSTANCING_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: POINT
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_CUBE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_DEPTH
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SPOT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: DawnShaderURP/HairShaderURP
+    simpleName: HairShaderURP
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: LOD_FADE_CROSSFADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MIXED_LIGHTING_SUBTRACTIVE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Actor/FKnight_Bundle_01/Shaders/DawnShaderURP/HairShaderURP.shader
+  - name: DawnShaderURP/HairShaderURP_V3
+    simpleName: HairShaderURP_V3
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: LOD_FADE_CROSSFADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MIXED_LIGHTING_SUBTRACTIVE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Actor/FKnight_Bundle_01/Shaders/DawnShaderURP/HairShaderURP_V3.shader
+  - name: DawnShaderURP/HairShaderURP_V2
+    simpleName: HairShaderURP_V2
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: LOD_FADE_CROSSFADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MIXED_LIGHTING_SUBTRACTIVE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Actor/FKnight_Bundle_01/Shaders/DawnShaderURP/HairShaderURP_V2.shader
+  - name: DawnShaderURP/ClothingShaderURP_V2
+    simpleName: ClothingShaderURP_V2
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: LOD_FADE_CROSSFADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MIXED_LIGHTING_SUBTRACTIVE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Actor/FKnight_Bundle_01/Shaders/DawnShaderURP/ClothingShaderURP_V2.shader
+  - name: DawnShaderURP/EyesShaderURP
+    simpleName: EyesShaderURP
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: LOD_FADE_CROSSFADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MIXED_LIGHTING_SUBTRACTIVE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Actor/FKnight_Bundle_01/Shaders/DawnShaderURP/EyesShaderURP.shader
+  - name: DawnShaderURP/ClothingShaderURP
+    simpleName: ClothingShaderURP
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: LOD_FADE_CROSSFADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MIXED_LIGHTING_SUBTRACTIVE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Actor/FKnight_Bundle_01/Shaders/DawnShaderURP/ClothingShaderURP.shader
+  - name: Hidden/TerrainEngine/Details/UniversalPipeline/WavingDoublePass
+    simpleName: WavingDoublePass
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SHADOWMASK
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LIGHT_COOKIES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Packages/com.unity.render-pipelines.universal/Shaders/Terrain/WavingGrass.shader
+  - name: DawnShaderURP/SkinShaderURP_V2
+    simpleName: SkinShaderURP_V2
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: LOD_FADE_CROSSFADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MIXED_LIGHTING_SUBTRACTIVE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DIRLIGHTMAP_COMBINED
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Actor/FKnight_Bundle_01/Shaders/DawnShaderURP/SkinShaderURP_V2.shader
+  - name: Hidden/TerrainEngine/Details/UniversalPipeline/BillboardWavingDoublePass
+    simpleName: BillboardWavingDoublePass
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_SHADOW_MIXING
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SHADOWMASK
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: LIGHTMAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Packages/com.unity.render-pipelines.universal/Shaders/Terrain/WavingGrassBillboard.shader
+  - name: Hidden/PostProcessing/FinalPass
+    simpleName: FinalPass
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: FXAA
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FXAA_KEEP_ALPHA
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FXAA_LOW
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FXAA_NO_ALPHA
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_DOUBLEWIDE_TARGET
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: STEREO_INSTANCING_ENABLED
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/FinalPass.shader
+  - name: TA/Role/Cloth HighPriestess
+    simpleName: Cloth HighPriestess
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _Clip
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LIGHT_COOKIES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Shader/Role/Cloth_HighPriestess.shader
+  - name: TA/Role/Weapon BunnyIrelia
+    simpleName: Weapon BunnyIrelia
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _Clip
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LIGHT_COOKIES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Shader/Role/Weapon_BunnyIrelia.shader
+  - name: TA/Scene/Water
+    simpleName: Water
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _FOLDOUTFOAM_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _FOLDOUTCAUSTIC_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _FOLDOUTENV_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _FOLDOUTSSS_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LIGHT_COOKIES
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Shader/Scene/Water.shader
+  - name: TA/Role/Cloth ElfSwordMaster
+    simpleName: Cloth ElfSwordMaster
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _Clip
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LIGHT_COOKIES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Shader/Role/Cloth_ElfSwordMaster.shader
+  - name: TA/Role/Cloth Fighter
+    simpleName: Cloth Fighter
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _Clip
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LIGHT_COOKIES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Shader/Role/Cloth_Fighter.shader
+  - name: TextMeshPro/Mobile/Distance Field
+    simpleName: Distance Field
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: OUTLINE_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNDERLAY_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_ALPHACLIP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_CLIP_RECT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader
+  - name: TA/Role/Hair BunnyIrelia
+    simpleName: Hair BunnyIrelia
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LIGHT_COOKIES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Shader/Role/Hair_BunnyIrelia.shader
+  - name: TA/Role/Cloth BunnyIrelia
+    simpleName: Cloth BunnyIrelia
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LIGHT_COOKIES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Shader/Role/Cloth_BunnyIrelia.shader
+  - name: Hidden/Universal Render Pipeline/CopyDepth
+    simpleName: CopyDepth
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _USE_DRAW_PROCEDURAL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _DEPTH_MSAA_2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _DEPTH_MSAA_4
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _DEPTH_MSAA_8
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Packages/com.unity.render-pipelines.universal/Shaders/Utils/CopyDepth.shader
+  - name: TA/Role/Body DaemonGirl
+    simpleName: Body DaemonGirl
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LIGHT_COOKIES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Shader/Role/Body_DaemonGirl.shader
+  - name: TA/Role/Eye BunnyIrelia
+    simpleName: Eye BunnyIrelia
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LIGHT_COOKIES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Shader/Role/Eye_BunnyIrelia.shader
+  - name: TA/Role/Eye Cornea BunnyIrelia
+    simpleName: Eye Cornea BunnyIrelia
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LIGHT_COOKIES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Shader/Role/EyeCornea_BunnyIrelia.shader
+  - name: TA/Role/Cloth BunnyIrelia Stocking
+    simpleName: Cloth BunnyIrelia Stocking
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _MAIN_LIGHT_SHADOWS_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _ADDITIONAL_LIGHTS
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _LIGHT_COOKIES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _MAIN_LIGHT_SHADOWS
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Shader/Role/Cloth_BunnyIrelia_Stocking.shader
+  - name: Hidden/PostProcessing/Lut2DBaker
+    simpleName: Lut2DBaker
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: TONEMAPPING_ACES
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: TONEMAPPING_CUSTOM
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: TONEMAPPING_NEUTRAL
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut2DBaker.shader
+  - name: Skybox/Procedural
+    simpleName: Procedural
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _SUNDISK_NONE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _SUNDISK_SIMPLE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: _SUNDISK_HIGH_QUALITY
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 0
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: TextMeshPro/Distance Field
+    simpleName: Distance Field
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: GLOW_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_ALPHACLIP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_CLIP_RECT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_SDF.shader
+  - name: ShaderControl/ChromaScreen
+    simpleName: ChromaScreen
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: ENABLE_BLUE_CHANNEL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: ENABLE_GREEN_CHANNEL
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: ENABLE_RED_CHANNEL
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/ShaderControl/Demo/Resources/ChromaScreen.shader
+  - name: Legacy Shaders/Particles/Alpha Blended
+    simpleName: Alpha Blended
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SOFTPARTICLES_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/PostProcessing/MultiScaleVO
+    simpleName: MultiScaleVO
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: APPLY_FORWARD_FOG
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVO.shader
+  - name: Hidden/PostProcessing/ScalableAO
+    simpleName: ScalableAO
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: APPLY_FORWARD_FOG
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScalableAO.shader
+  - name: Hidden/Internal-Halo
+    simpleName: Internal-Halo
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: TextMeshPro/Mobile/Distance Field Overlay
+    simpleName: Distance Field Overlay
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: UNITY_UI_ALPHACLIP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_CLIP_RECT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile
+      Overlay.shader
+  - name: Unlit/Swish
+    simpleName: Swish
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/Swish.shader
+  - name: Hidden/Universal/CoreBlit
+    simpleName: CoreBlit
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: BLIT_SINGLE_SLICE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: DISABLE_TEXTURE2D_X_ARRAY
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Packages/com.unity.render-pipelines.universal/Shaders/Utils/CoreBlit.shader
+  - name: Hidden/CustomWaterShadow
+    simpleName: CustomWaterShadow
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: SHADOWS_SINGLE_CASCADE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: SHADOWS_SPLIT_SPHERES
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/CollectShadowWaterCustom.shader
+  - name: TextMeshPro/Mobile/Bitmap
+    simpleName: Bitmap
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: UNITY_UI_ALPHACLIP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_CLIP_RECT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader
+  - name: UI/Default
+    simpleName: Default
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: UNITY_UI_ALPHACLIP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_CLIP_RECT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Unlit/Texture
+    simpleName: Texture
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Sprites/Default
+    simpleName: Default
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: ETC1_EXTERNAL_ALPHA
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: PIXELSNAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: TextMeshPro/Sprite
+    simpleName: Sprite
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: UNITY_UI_ALPHACLIP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_CLIP_RECT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader
+  - name: Sprites/Mask
+    simpleName: Mask
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: ETC1_EXTERNAL_ALPHA
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: PIXELSNAP_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: TextMeshPro/Mobile/Distance Field - Masking
+    simpleName: Distance Field - Masking
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: UNITY_UI_ALPHACLIP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_CLIP_RECT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile
+      Masking.shader
+  - name: Unlit/Color
+    simpleName: Color
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/PostProcessing/Debug/LightMeter
+    simpleName: LightMeter
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: AUTO_EXPOSURE
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: COLOR_GRADING_HDR
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/LightMeter.shader
+  - name: TextMeshPro/Bitmap
+    simpleName: Bitmap
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: UNITY_UI_ALPHACLIP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_CLIP_RECT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader
+  - name: Hidden/PostProcessing/DeferredFog
+    simpleName: DeferredFog
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: FOG_EXP2
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: FOG_LINEAR
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DeferredFog.shader
+  - name: TextMeshPro/Distance Field Overlay
+    simpleName: Distance Field Overlay
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: UNITY_UI_ALPHACLIP
+      includeInBuild: 1
+      includeInVariant: 0
+    - keyword: UNITY_UI_CLIP_RECT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Packages/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader
+  - name: Hidden/Internal-DeferredReflections
+    simpleName: Internal-DeferredReflections
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: UNITY_HDR_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Legacy Shaders/Particles/Alpha Blended Premultiply
+    simpleName: Alpha Blended Premultiply
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: SOFTPARTICLES_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Universal Render Pipeline/Unlit
+    simpleName: Unlit
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _SURFACE_TYPE_TRANSPARENT
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Packages/com.unity.render-pipelines.universal/Shaders/Unlit.shader
+  - name: Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)
+    simpleName: Lit (Basemap Gen)
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: _MASKMAP
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Packages/com.unity.render-pipelines.universal/Shaders/Terrain/TerrainLitBasemapGen.shader
+  - name: Hidden/VideoDecode
+    simpleName: VideoDecode
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: ADJUST_TO_LINEARSPACE
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Legacy Shaders/Particles/Additive
+    simpleName: Additive
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: SOFTPARTICLES_ON
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 1
+    isReadOnly: 0
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/PostProcessing/Debug/Overlays
+    simpleName: Overlays
+    isExpanded: 0
+    includeInBuild: 1
+    keywords:
+    - keyword: SOURCE_GBUFFER
+      includeInBuild: 1
+      includeInVariant: 0
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Overlays.shader
+  - name: Hidden/Nature/Tree Creator Normal Rendertex
+    simpleName: Tree Creator Normal Rendertex
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 0
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Nature/Tree Creator Albedo Rendertex
+    simpleName: Tree Creator Albedo Rendertex
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 0
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/TerrainEngine/CrossBlendNeighbors
+    simpleName: CrossBlendNeighbors
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 0
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/TerrainEngine/BillboardTree
+    simpleName: BillboardTree
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 0
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Nature/Tree Soft Occlusion Bark Rendertex
+    simpleName: Tree Soft Occlusion Bark Rendertex
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 0
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/TerrainEngine/HeightBlitCopy
+    simpleName: HeightBlitCopy
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 0
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-DepthNormalsTexture
+    simpleName: Internal-DepthNormalsTexture
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/PostProcessing/DiscardAlpha
+    simpleName: DiscardAlpha
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DiscardAlpha.shader
+  - name: Hidden/PostProcessing/Debug/Histogram
+    simpleName: Histogram
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.shader
+  - name: Hidden/Internal-Flare
+    simpleName: Internal-Flare
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Unlit/FrostedGlass
+    simpleName: FrostedGlass
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/FrostedGlass.shader
+  - name: Hidden/BlitCopy
+    simpleName: BlitCopy
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/PostProcessing/SubpixelMorphologicalAntialiasing
+    simpleName: SubpixelMorphologicalAntialiasing
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.shader
+  - name: Hidden/Internal-GUITexture
+    simpleName: Internal-GUITexture
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-GUIRoundedRect
+    simpleName: Internal-GUIRoundedRect
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-UIRAtlasBlitCopy
+    simpleName: Internal-UIRAtlasBlitCopy
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Nature/Tree Soft Occlusion Leaves Rendertex
+    simpleName: Tree Soft Occlusion Leaves Rendertex
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 0
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-UIRDefaultWorld
+    simpleName: Internal-UIRDefaultWorld
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-GUITextureClip
+    simpleName: Internal-GUITextureClip
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/BlitCopyDepth
+    simpleName: BlitCopyDepth
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/PostProcessing/MotionBlur
+    simpleName: MotionBlur
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MotionBlur.shader
+  - name: Hidden/PostProcessing/ScreenSpaceReflections
+    simpleName: ScreenSpaceReflections
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.shader
+  - name: Hidden/PostProcessing/Bloom
+    simpleName: Bloom
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Bloom.shader
+  - name: Hidden/VideoComposite
+    simpleName: VideoComposite
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/BlitCopyHDRTonemap
+    simpleName: BlitCopyHDRTonemap
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-MotionVectors
+    simpleName: Internal-MotionVectors
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/CubeBlur
+    simpleName: CubeBlur
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/ProBuilder/VertexPickerHDRP
+    simpleName: VertexPickerHDRP
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.probuilder/Content/Shader/VertexPickerHDRP.shader
+  - name: Hidden/CubeBlend
+    simpleName: CubeBlend
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: ProBuilder/UnlitVertexColor
+    simpleName: UnlitVertexColor
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.probuilder/Content/Shader/UnlitVertexColor.shader
+  - name: Skybox/Simple
+    simpleName: Simple
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/SimpleSky.shader
+  - name: Render Depth
+    simpleName: Render Depth
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/3DGamekit/Art/Shaders/DepthOnly.shader
+  - name: Hidden/TextCore/Distance Field SSD
+    simpleName: Distance Field SSD
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-GUITextureBlit
+    simpleName: Internal-GUITextureBlit
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-GUIRoundedRectWithColorPerBorder
+    simpleName: Internal-GUIRoundedRectWithColorPerBorder
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/PostProcessing/CopyStdFromDoubleWide
+    simpleName: CopyStdFromDoubleWide
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromDoubleWide.shader
+  - name: Hidden/Internal-StencilWrite
+    simpleName: Internal-StencilWrite
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/ProBuilder/FacePickerHDRP
+    simpleName: FacePickerHDRP
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.probuilder/Content/Shader/FacePickerHDRP.shader
+  - name: Hidden/VR/BlitFromTex2DToTexArraySlice
+    simpleName: BlitFromTex2DToTexArraySlice
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Skybox/Cubemap
+    simpleName: Cubemap
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 0
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: TA/Role/Eye Shadow BunnyIrelia
+    simpleName: Eye Shadow BunnyIrelia
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Shader/Role/EyeShadow_BunnyIrelia.shader
+  - name: Hidden/PostProcessing/CopyStd
+    simpleName: CopyStd
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStd.shader
+  - name: Hidden/VR/BlitTexArraySlice
+    simpleName: BlitTexArraySlice
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: MyURP/XWeaponTrail/slash1
+    simpleName: slash1
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Plugins/XWeaponTrail/Shader/xft_slash1_urp.shader
+  - name: Hidden/ProBuilder/VertexPicker
+    simpleName: VertexPicker
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.probuilder/Content/Shader/VertexPicker.shader
+  - name: Hidden/Universal Render Pipeline/LutBuilderLdr
+    simpleName: LutBuilderLdr
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Packages/com.unity.render-pipelines.universal/Shaders/PostProcessing/LutBuilderLdr.shader
+  - name: Hidden/CubeCopy
+    simpleName: CubeCopy
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Universal Render Pipeline/FallbackError
+    simpleName: FallbackError
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader
+  - name: Hidden/BlitToDepth_MSAA
+    simpleName: BlitToDepth_MSAA
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/UIElements/EditorUIE
+    simpleName: EditorUIE
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 0
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-GUITextureClipText
+    simpleName: Internal-GUITextureClipText
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-CombineDepthNormals
+    simpleName: Internal-CombineDepthNormals
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/BlitToDepth
+    simpleName: BlitToDepth
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/PostProcessing/TemporalAntialiasing
+    simpleName: TemporalAntialiasing
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/TemporalAntialiasing.shader
+  - name: Hidden/Internal-CubemapToEquirect
+    simpleName: Internal-CubemapToEquirect
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/PostProcessing/Copy
+    simpleName: Copy
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Copy.shader
+  - name: Hidden/ProBuilder/FacePicker
+    simpleName: FacePicker
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.probuilder/Content/Shader/FacePicker.shader
+  - name: Hidden/PostProcessing/DepthOfField
+    simpleName: DepthOfField
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DepthOfField.shader
+  - name: Hidden/PostProcessing/Debug/Vectorscope
+    simpleName: Vectorscope
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.shader
+  - name: Hidden/PostProcessing/CopyStdFromTexArray
+    simpleName: CopyStdFromTexArray
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromTexArray.shader
+  - name: Hidden/ConvertTexture
+    simpleName: ConvertTexture
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/PostProcessing/Debug/Waveform
+    simpleName: Waveform
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.shader
+  - name: Hidden/Compositing
+    simpleName: Compositing
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/Internal-UIRDefault
+    simpleName: Internal-UIRDefault
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: MyURP/Particles/FXVille Blood 2018
+    simpleName: FXVille Blood 2018
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Effect/FXVille_BloodPack/Shaders/FXVille Blood 2018.shader
+  - name: Hidden/TerrainEngine/TerrainLayerUtils
+    simpleName: TerrainLayerUtils
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 0
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: TA/Role/Eyelashes BunnyIrelia
+    simpleName: Eyelashes BunnyIrelia
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 0
+    variants: []
+    path: Assets/Shader/Role/Eyelashes_BunnyIrelia.shader
+  - name: Hidden/TerrainEngine/CameraFacingBillboardTree
+    simpleName: CameraFacingBillboardTree
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 0
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/PostProcessing/GrainBaker
+    simpleName: GrainBaker
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GrainBaker.shader
+  - name: Hidden/TerrainEngine/PaintHeight
+    simpleName: PaintHeight
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 0
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/PostProcessing/Texture2DLerp
+    simpleName: Texture2DLerp
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture2DLerp.shader
+  - name: Hidden/Internal-ODSWorldTexture
+    simpleName: Internal-ODSWorldTexture
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/ProBuilder/HideVertices
+    simpleName: HideVertices
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.probuilder/Content/Shader/HideVertices.shader
+  - name: Hidden/ProBuilder/EdgePicker
+    simpleName: EdgePicker
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 0
+    isReadOnly: 1
+    variants: []
+    path: Packages/com.unity.probuilder/Content/Shader/EdgePicker.shader
+  - name: Hidden/TerrainEngine/GenerateNormalmap
+    simpleName: GenerateNormalmap
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 0
+    variants: []
+    path: Resources/unity_builtin_extra
+  - name: Hidden/BlitCopyWithDepth
+    simpleName: BlitCopyWithDepth
+    isExpanded: 0
+    includeInBuild: 1
+    keywords: []
+    isInternal: 1
+    isReadOnly: 1
+    variants: []
+    path: Resources/unity_builtin_extra
+  sortType: 1
+  hideReadOnlyShaders: 1
