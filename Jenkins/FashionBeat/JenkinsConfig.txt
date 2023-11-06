@@ -1,0 +1,11 @@
+#!${GitBashPath}
+m_ForceRebuild="false"
+m_FtpUrl="23.106.53.95"
+m_FtpDir="asset_qa/iOS/a"
+m_CdnUrl="~"
+m_FtpRSA="uniuftp"
+m_FtpUser="uniuftp"
+m_FtpPort="22"
+
+sh ${JenkinsCode}/BuildAB.sh "${Unity2020_341}" "${ProjectNftIos}" "iOS" "${m_ForceRebuild}" \
+"${m_FtpUrl}" "${m_FtpDir}" "${m_CdnUrl}" "${m_FtpRSA}" "${m_FtpPort}" "${m_FtpUser}"
